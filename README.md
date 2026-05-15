@@ -1,67 +1,31 @@
-# Holiday Arena
+# Holiday Arena V1
 
-Mobile-first idle PvP RPG arena game.
+## Kurulum
 
-## V1 Features
+```bash
+npm install
+npm run dev
+```
 
-- Login / Register system
-- Character selection screen
-- Max 4 character slots
-- Character creation
-- Class system
-  - Warrior
-  - Assassin
-  - Mage
-  - Ranger
-  - Paladin
-- Character power system
-- Arena matchmaking foundation
-- Leaderboard foundation
+## Netlify
 
-## Planned Systems
+Build command:
 
-### Progression
-- Quest system
-- XP and level system
-- Loot chest rewards
-- Gear rarity
-- Gear upgrade system
+```bash
+npm run build
+```
 
-### PvP
-- Auto battle arena
-- Elo ranking
-- Match history
-- Arena rewards
+Publish directory:
 
-### Social
-- Friends
-- Seasonal ranking
-- Global leaderboard
+```bash
+dist
+```
 
-## Tech Stack
+## V1 İçerik
 
-Frontend:
-- React
-- Vite
-- TailwindCSS
-- Framer Motion
-
-Backend:
-- Supabase
-
-Realtime:
-- Supabase Realtime
-
-## Project Structure
-
-src/
-  components/
-  pages/
-  systems/
-  data/
-  hooks/
-  store/
-
-## Current Goal
-
-Build the full authentication and character selection flow before gameplay systems.
+- Login / Register ekranı
+- Karakter seçimi
+- Maksimum 4 karakter slotu
+- Karakter oluşturma
+- Warrior, Assassin, Mage, Ranger, Paladin class seçimi
+- Aktif karakter profil ekranı
